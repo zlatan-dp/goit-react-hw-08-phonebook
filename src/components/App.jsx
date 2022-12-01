@@ -1,12 +1,12 @@
-import { useEffect, lazy } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { lazy } from 'react';
+// import { useDispatch, useSelector } from 'react-redux';
 import { Routes, Route } from 'react-router-dom';
-import { ContactForm } from './ContactForm/ContactForm';
-import { Filter } from './Filter/Filter';
-import { ContactList } from './ContactList/ContactList';
-import { Title, Wrapper } from './App.styled';
-import { fetchContacts } from 'redux/contacts/operations';
-import { selectIsLoading, selectError } from 'redux/contacts/selectors';
+// import { ContactForm } from './ContactForm/ContactForm';
+// import { Filter } from './Filter/Filter';
+// import { ContactList } from './ContactList/ContactList';
+// import { Title, Wrapper } from './App.styled';
+// import { fetchContacts } from 'redux/contacts/operations';
+// import { selectIsLoading, selectError } from 'redux/contacts/selectors';
 import { Layout } from './Layout/Layout';
 
 const HomePage = lazy(() => import('../pages/Home/Home'));
