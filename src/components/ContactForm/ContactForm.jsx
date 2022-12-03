@@ -1,6 +1,4 @@
-// import { nanoid } from '@reduxjs/toolkit';
 import { useDispatch, useSelector } from 'react-redux';
-// import { addContact } from 'redux/contactsSlice';
 import { selectContacts } from 'redux/contacts/selectors';
 import {
   AddBtn,
